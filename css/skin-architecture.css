@@ -156,7 +156,7 @@ h6{
 /* Lead */
 .lead,
 blockquote.large{
-	font-size: 2.016rem;
+	font-size: 1.25rem;
 	font-weight: 300;
 }
 
@@ -267,7 +267,7 @@ a.animated-link:hover .text-line,
 		font-size: 1.053rem;
 	}
 	.title-xlarge{
-		font-size: 5.826rem;
+		font-size: 3.826rem;
 	}
 	.title-large{
 		font-size: 4.381rem;
@@ -280,8 +280,8 @@ a.animated-link:hover .text-line,
 	}
 	.tms-caption.title-xlarge,
 	.tmp-content .title-xlarge{
-		font-size: 5.826rem;
-		line-height: 5.826rem;
+		font-size: 3.826rem;
+		line-height: 3.826rem;
 	}
 
 	/* Helpers */
@@ -1542,14 +1542,14 @@ body,
 
 /* Slider Navigation Common */
 .tms-arrow-nav{
+	margin-top: -4rem;
 	width: 4.4rem;
-	height: 4.4rem;
-	background: none;
+	height: 8rem;
+	background-color: #00000031;
 	font-size: 2rem;
-	line-height: 4.4rem;
+	line-height: 8.4rem;
 	color: #fff;
 	border: none;
-	background-color: #000;
 }
 .tms-arrow-nav:hover{
 	opacity: 0.5 !important;
@@ -1564,7 +1564,7 @@ body,
 	background: #fff;
 }
 .tms-nav-dark .tms-bullet-nav{
-	background: #000;
+	background: #000
 }
 .hide-arrow-nav .tms-arrow-nav,
 .hide-progress .tms-progress-bar{
@@ -1572,9 +1572,9 @@ body,
 }
 
 /* Featured Media Slider Navigation */
-.featured-media .tms-arrow-nav{
+/* .featured-media .tms-arrow-nav{
 	display: none !important;
-}
+} */
 .featured-media .tms-pagination{
 	max-width: 114rem;
 	padding-left: 1.5rem;
