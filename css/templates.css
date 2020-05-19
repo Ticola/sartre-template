@@ -996,7 +996,7 @@ body.boxed .header .header-inner{
 
 /* Mobile */
 .mobile .header{
-	position: static !important;
+	position: absolute !important;
 }
 .mobile .header-fixed-on-mobile .header-inner{
 	width: 100%;

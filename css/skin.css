@@ -1609,7 +1609,7 @@ body,
 /* Mobile Slider & Parallax */
 .mobile .featured-media,
 .mobile .parallax.fixed-height{
-	height: 50rem;
+	height: 40rem;
 }
 
 /* Featured Slider Nav Breakpoints */
