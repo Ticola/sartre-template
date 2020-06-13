@@ -1869,10 +1869,10 @@
 			if( settings.muteBkgVideo || slide.is( '[data-mute-video]' ) ) videoId.muted = settings.muteBkgVideo;
 
 			// Replay or next
-			function onEnd(e) {
-				if( settings.replayOnEnd ) videoId.loop = true;
-				if( settings.nextSlideOnEnd ) obj.nextSlide();
-			}
+			// function onEnd(e) {
+			// 	if( settings.replayOnEnd ) videoId.loop = true;
+			// 	if( settings.nextSlideOnEnd ) obj.nextSlide();
+			// }
 		}
 	};	
 
