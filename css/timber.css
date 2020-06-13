@@ -3100,7 +3100,7 @@ ol li > [class*="icon-"]:first-child{
 }
 .tabs.vertical:after{
 	display: block;
-	content: ".";
+	content: " ";
 	overflow: hidden;
 	clear: both;
 }
@@ -5682,6 +5682,9 @@ button,
 .no-transition-reset{
 	-webkit-transition-duration: 0ms !important;
 			transition-duration: 0ms !important;
+}
+.thumbnail, .thumbnail .background-image, .thumbnail img {
+	min-width: 100%;
 }
 
 /*------------------------------------------------------------------

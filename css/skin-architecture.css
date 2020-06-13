@@ -603,8 +603,9 @@ body,
 */
 
 /* Initial Logo Width */
-.header .logo{
-	width: 12.5rem;
+.header .logo svg{
+	width: 100px;
+    height: 85px;
 }
 
 /* Compacted Header Logo Width */
@@ -680,6 +681,9 @@ body,
 	.header .logo-inner{
 		display: table-cell;
 		vertical-align: middle;
+	}
+	.header .logo svg{
+		width: 75px;
 	}
 	.header .logo a{
 		position: relative;
@@ -1476,7 +1480,7 @@ body,
 	height: 15rem;
 }
 .intro-title-2{
-	background-image: url(../images/slider/slide-2-page-intro.jpg);	
+	background-image: url(../images/architecture/work/hero--masthead.jpg);	
 }
 .intro-title-2-1{
 	background-image: url(../images/slider/slide-8-page-intro.jpg);	
@@ -3707,7 +3711,7 @@ only screen and (				min-resolution: 2dppx) {
 
 	/* Intro Sections */
 	.intro-title-2{
-		background-image: url(../images/slider/slide-2-page-intro@2x.jpg);	
+		background-image: url(../images/architecture/work/hero--masthead@2x.jpg);	
 	}
 	.intro-title-2-1{
 		background-image: url(../images/slider/slide-8-page-intro@2x.jpg);	

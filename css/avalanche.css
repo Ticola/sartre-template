@@ -96,6 +96,9 @@ Copyright: ThemeMountain
 	left: 0;
 	z-index: 1;
 }
+.tms-slide--position-top {
+	background-position: top;
+}
 .tms-forcefit{
 	background-size: cover;
 }
@@ -148,7 +151,7 @@ Copyright: ThemeMountain
 .tms-slide.tms-forcefit > embed{
 	position: relative;
 }
-.tms-slide img {
+.thumb img {
 	max-width: 100%;
 	max-height: 100%;
 	margin: 0 auto;
@@ -157,9 +160,10 @@ Copyright: ThemeMountain
 	position: relative;
 	transform: translate(0,0);
 }
-.tms-carousel .tms-slide img{
+.tms-carousel .thumb img{
 	max-height: none;
 }
+
 .tms-carousel .tms-slide  .thumbnail{
 	height: auto !important;
 }
@@ -202,6 +206,24 @@ Copyright: ThemeMountain
 			transition-property: opacity;
 	-webkit-transition-duration: 1000ms;
 			transition-duration: 1000ms;
+}
+.thumb--landscape {
+    display: none;
+}
+.thumb--portrait {
+    display: block;
+}
+.thumb {
+    width: auto;
+    position: relative;
+}
+@media only screen and (min-width: 768px){
+	.thumb--landscape {
+		display: block;
+	}
+	.thumb--portrait {
+		display: none;
+	}
 }
 
 /*------------------------------------------------------------------
