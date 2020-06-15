@@ -211,11 +211,11 @@ Copyright: ThemeMountain
     display: none;
 }
 .thumb--portrait {
-    display: block;
+    display: flex;
 }
 @media only screen and (min-width: 768px){
 	.thumb--landscape {
-		display: block!important;
+		display: flex!important;
 	}
 	.thumb--portrait {
 		display: none;
