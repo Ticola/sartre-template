@@ -214,12 +214,12 @@ Copyright: ThemeMountain
     display: block;
 }
 .thumb {
-    width: auto;
+    width: max-content;
     position: relative;
 }
 @media only screen and (min-width: 768px){
 	.thumb--landscape {
-		display: block;
+		display: block!important;
 	}
 	.thumb--portrait {
 		display: none;
