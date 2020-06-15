@@ -213,10 +213,6 @@ Copyright: ThemeMountain
 .thumb--portrait {
     display: block;
 }
-.thumb {
-    width: max-content;
-    position: relative;
-}
 @media only screen and (min-width: 768px){
 	.thumb--landscape {
 		display: block!important;
