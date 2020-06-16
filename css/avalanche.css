@@ -208,14 +208,21 @@ Copyright: ThemeMountain
 			transition-duration: 1000ms;
 }
 .thumb--landscape {
-    display: none;
+	display: none;
 }
 .thumb--portrait {
-    display: flex;
+    display: block;
+}
+.thumb--landscape, .thumb--portrait {
+	width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media only screen and (min-width: 768px){
 	.thumb--landscape {
-		display: flex!important;
+		display: block!important;
 	}
 	.thumb--portrait {
 		display: none;
