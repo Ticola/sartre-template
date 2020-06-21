@@ -208,7 +208,7 @@ Copyright: ThemeMountain
 			transition-duration: 1000ms;
 }
 .thumb--landscape {
-	display: none;
+	display: none; 
 }
 .thumb--portrait {
     display: block;
