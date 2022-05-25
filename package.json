@@ -2,7 +2,7 @@
   "name": "sartre",
   "version": "1.0.7",
   "devDependencies": {
-    "grunt": "~1.1.0",
+    "grunt": "~1.5.3",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-imagemin": "^4.0.0",
     "grunt-contrib-jshint": "~2.1.0",
